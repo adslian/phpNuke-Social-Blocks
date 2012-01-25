@@ -5,6 +5,7 @@
  * @version 1.0
  * @package phpNuke Social Blocks
  * @link https://github.com/emontes/phpNuke-Social-Blocks
+ * Documentation on FB: http://developers.facebook.com/docs/reference/plugins/comments/
  */
 
 if ( !defined('BLOCK_FILE') ) {
@@ -34,7 +35,7 @@ if ($fbuserid <> ""){
 }
 
 if ($fbappid <> ""){
-	$content .= "<meta property=\"fb:app_id\" content=\"233111176767359\"/>";
+	$content .= "<meta property=\"fb:app_id\" content=\"$fbappid\"/>";
 }
 
 ?>

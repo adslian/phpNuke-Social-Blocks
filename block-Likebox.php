@@ -5,6 +5,7 @@
  * @version 1.0
  * @package phpNuke Social Blocks
  * @link https://github.com/emontes/phpNuke-Social-Blocks
+ * Documentation on FB: http://developers.facebook.com/docs/reference/plugins/like-box/
  */
 
 if ( !defined('BLOCK_FILE') ) {
